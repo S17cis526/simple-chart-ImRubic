@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/zombiepaladin/simple-chart/issues"
   },
-  "homepage": "https://github.com/zombiepaladin/simple-chart#readme"
+  "homepage": "https://github.com/zombiepaladin/simple-chart#readme",
+  "dependencies": {
+    "sqlite3": "3.1.8"
+  },
+  "devDependencies": {}
 }
