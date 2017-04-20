@@ -56,6 +56,9 @@ function handleRequest(req, res) {
 	case '/pointDistribution.json':
 	  serveFile('data/pointDistribution.json', 'application/json', req, res);
 	  break;
+	case '/burndown.json':
+	  serverFile('data/burndown.json', 'application/json', req, res);
+	  break;
     default:
       res.statusCode = 404;
       res.end("Not found");
